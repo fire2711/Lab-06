@@ -14,6 +14,7 @@ def encoder(password):
 
     return encoded
 
+
 def main():
 
     while True:

@@ -14,6 +14,12 @@ def encoder(password):
 
     return encoded
 
+def decoder(new):
+    decoded = ""
+    for num in new:
+        new_digit = str(((int(num) - 3) % 10))
+        decoded += new_digit
+    return decoded
 
 def main():
 
